@@ -24,3 +24,8 @@
     "tailwindcss": "^3.4.1"
   }
 }
+"homepage": "https://rizenkai.github.io/zenflix",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
